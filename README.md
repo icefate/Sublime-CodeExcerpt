@@ -6,14 +6,21 @@ CodeExcerpt插件实现Editplus里的素材功能，读取素材片断，并插�
 
 插件适用对象：从Editplus转向Sublime，但并不打算放弃Editplus的人
 
-更多信息访问：[http://ce.buckethead.cn](http://ce.buckethead.cn) 
+Git链接:  https://github.com/icefate/Sublime-CodeExcerpt
+
+插件官网: [http://ce.buckethead.cn](http://ce.buckethead.cn) 
+
+Email: <span style="color: green;">i@buckethead.cn</span>
+
 
 ## 配置 - Config
 `codeexcerpt.sublime-settings` 有备注
+
 有个 chm文件目录 的配置，可以打开常用的chm手册
 
-## 兼容 - Compatible 
+## 兼容 - Compatible
 以下是经过测试的平台环境
+
 * 操作系统：Windows XP & Windows 7
 * Sublime版本： Sublime Text 2
 * Editplus版本： EditPlus 3.51
