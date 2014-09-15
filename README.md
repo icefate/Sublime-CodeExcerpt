@@ -3,7 +3,7 @@ CodeExcerpt-实现Editplus素材功能的Sublime插件。可读取Editplus里的
 
 预设的快捷键： `ctrl+alt+s`
 
-插件适用对象：从Editplus转向Sublime，但并不打算放弃Editplus的人
+插件适用对象：从Editplus转向Sublime，但并不打算放弃Editplus的人 ( 当然凡事无绝对，参见本页最下端的备注所述)
 
 更多信息访问：
 
@@ -41,4 +41,6 @@ Email: i@buckethead.cn
 
 * Editplus的ctl文件编码基本上是`ANSI`, 都可以顺利读取到. 但有特殊字符的,例如`Code.ctl`这个文件,里面的有很多特殊字符,是无法读取到的。
 * 如果在打开sublime情况下，新增了新的素材文件，你可能需要重启软件才能加载。
-* 此插件并没有包含对ctl文件编辑管理的功能，所以你仍然需要在Editplus里进行管理。
+* 此插件并没有包含对ctl文件编辑管理的功能，所以你仍然需要在Editplus里进行管理。当然，你也可以放弃使用Editplus，将ctl文件抽出来独立使用于sublime. 那么ctl 文件就需要你自己管理了，手工编辑，又或者你可以考虑写个软件来管理.  要注意的是本插件是遵循Editplus的ctl文件语法来进行字符处理的。
+
+
