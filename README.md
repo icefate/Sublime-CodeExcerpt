@@ -5,7 +5,14 @@ CodeExcerpt-实现Editplus素材功能的Sublime插件。可读取Editplus里的
 
 插件适用对象：从Editplus转向Sublime，但并不打算放弃Editplus的人
 
-更多信息访问：[http://ce.buckethead.cn](http://ce.buckethead.cn) 
+更多信息访问：
+
+Git链接: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/icefate/Sublime-CodeExcerpt)
+
+插件官网: [http://ce.buckethead.cn](http://ce.buckethead.cn) 
+
+Email: i@buckethead.cn
+
 
 ## 配置 - Config
 `codeexcerpt.sublime-settings` 有备注
