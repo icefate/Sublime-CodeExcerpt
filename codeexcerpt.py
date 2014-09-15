@@ -101,7 +101,7 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 						break
 
 		tStr=re.sub("^#T=.*\n","",templateStr) 
-		if tStr=="\n":  #@ 仅有一行 例如 CSS2.ctl 里的样式
+		if tStr=="\n":  #@ 仅有一行的情况, 例如 CSS2.ctl 里的样式
 			templateStr=re.sub("^(#T=)|\n|\r","",templateStr) 
 		else:
 			templateStr=tStr
@@ -134,11 +134,11 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 
 					pretabstr=self.getPreTab(pos_x)
 					pat=re.compile(r"\n", re.MULTILINE)
-					finalStr=re.sub(pat,"\n"+pretabstr,templateStr.replace("^!",""))  #@ 去除 ^! 并在每一行前加缩进
+					finalStr=re.sub(pat,"\n"+pretabstr,templateStr.replace("^!",""))  #@ 去除 ^! 并在除了第一行外的每一行前加缩进
 
 					self.view.replace(self.currentEditObj,regi,finalStr)
 
-					#@ templateStr 起始 到 ^! 标记中间有换行的，光标位置需要加 行数*len(pretabstr)
+					#@ templateStr 起始 到 ^! 标记中间有换行的，光标位置需要加: 行数*len(pretabstr)
  					ncount=len(re.split("\n",templateStr[0:tempCursorFlagOffset]))-1;
  					#print ncount
 					newPointPos=newPointPos+ncount*len(pretabstr) #@ 光标位置
@@ -162,7 +162,7 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 
 					pretabstr=self.getPreTab(pos_min) 
 					pat=re.compile(r"\n", re.MULTILINE)
-					finalStr=re.sub(pat,"\n"+pretabstr,templateStr) #@ 每一行前加缩进
+					finalStr=re.sub(pat,"\n"+pretabstr,templateStr) #@ 除了第一行外,每一行前加缩进
 
 					#@ 选区的前缀缩进 处理
 					regionStr_noPreTab=re.sub("^(\t|\s)+","",regionStr)
