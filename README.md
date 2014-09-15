@@ -9,7 +9,7 @@ CodeExcerpt-实现Editplus素材功能的Sublime插件。可读取Editplus里的
 
 Git链接: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/icefate/Sublime-CodeExcerpt)
 
-插件官网: [http://ce.buckethead.cn](http://ce.buckethead.cn) 
+插件官网: [http://ce.buckethead.cn](http://ce.buckethead.cn)   --- 官网有 gif 操作演示
 
 Email: i@buckethead.cn
 
