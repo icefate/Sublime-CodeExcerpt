@@ -13,7 +13,7 @@ Git链接: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/i
 
 Email: i@buckethead.cn
 
-<p style="padding-top: 10px;"><span style="font-size: 16px;font-weight: bold;">Gif 操作演示</span></p>
+##  操作演示 - Gif
 
 录制的文件较大，建议花几分钟，耐心看完：
 
