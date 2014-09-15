@@ -13,6 +13,15 @@ Git链接: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/i
 
 Email: i@buckethead.cn
 
+<p style="padding-top: 10px;"><span style="font-size: 16px;font-weight: bold;">Gif 操作演示</span></p>
+
+录制的文件较大，建议花几分钟，耐心看完：
+
+* <a href="http://ce.buckethead.cn/1.gif" target="_blank">常见情形 - 1.gif</a>
+* <a href="http://ce.buckethead.cn/2.gif" target="_blank">单选区 / 多选区 - 2.gif</a>
+* <a href="http://ce.buckethead.cn/3.gif" target="_blank">各种选取情况 - 3.gif</a>
+* <a href="http://ce.buckethead.cn/4.gif" target="_blank">打开chm文件 - 4.gif</a>
+
 
 ## 配置 - Config
 `codeexcerpt.sublime-settings` 有备注
