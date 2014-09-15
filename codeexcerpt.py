@@ -190,7 +190,7 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 			Bug的出现：
 				在非反选字符的情况下插入设置有^!标记的素材,最后光标定位确实是已经定位到 ^! 标记处，但光标的闪烁显示是在末尾 
 			原因：
-				代码用show_quick_panel调出的列表，通过敲击这个下拉列表插入字符,就会导致这个问题。 若直接在代码里调用函数on_select_done则光标正常 （测试见TestBug.py ）
+				代码用show_quick_panel调出的列表，通过敲击这个下拉列表插入字符,就会导致这个问题。 若直接在代码里调用函数on_select_done则光标正常 
 
 			因此, 在最后面，执行删除 / 撤销 命令，令光标正常显示...
 		'''
