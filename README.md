@@ -14,7 +14,7 @@ Email: i@buckethead.cn
 ##  演示 - Gif
 
 录制的文件较大，建议花几分钟，耐心看完：
-
+* <a href="http://ce.buckethead.cn/0.gif" target="_blank">安装 - 0.gif</a>
 * <a href="http://ce.buckethead.cn/1.gif" target="_blank">常见情形 - 1.gif</a>
 * <a href="http://ce.buckethead.cn/2.gif" target="_blank">单选区 / 多选区 - 2.gif</a>
 * <a href="http://ce.buckethead.cn/3.gif" target="_blank">各种选取情况 - 3.gif</a>
