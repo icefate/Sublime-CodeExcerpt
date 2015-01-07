@@ -126,19 +126,16 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 				if tempCursorFlagOffset>=0: 
 					newPointPos=pos_x+tempCursorFlagOffset
 
+				pretabstr=self.getPreTab(pos_x)
+				pat=re.compile(r"\n",re.MULTILINE)
+
 				if newPointPos==-1: #@ 无^! 标记的
-					pretabstr=self.getPreTab(pos_x)
-					pat=re.compile(r"\n",re.MULTILINE) #@ ^#开头 
-					templateStr= re.sub(pat,"\n"+pretabstr,templateStr)  
-					self.view.replace(self.currentEditObj,regi,templateStr)
-					ncp=pos_x+len(templateStr)
+					finalStr= re.sub(pat,"\n"+pretabstr,templateStr)
+					self.view.replace(self.currentEditObj,regi,finalStr)
+					ncp=pos_x+len(finalStr)
 					newRegins.append(sublime.Region(ncp,ncp))
 				else: # @ 有^! 标记的
-
-					pretabstr=self.getPreTab(pos_x)
-					pat=re.compile(r"\n", re.MULTILINE)
 					finalStr=re.sub(pat,"\n"+pretabstr,templateStr.replace("^!",""))  #@ 去除 ^! 并在除了第一行外的每一行前加缩进
-
 					self.view.replace(self.currentEditObj,regi,finalStr)
 
 					#@ templateStr 起始 到 ^! 标记中间有换行的，光标位置需要加: 行数*len(pretabstr)
