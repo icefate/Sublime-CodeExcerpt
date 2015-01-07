@@ -127,6 +127,9 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 					newPointPos=pos_x+tempCursorFlagOffset
 
 				if newPointPos==-1: #@ 无^! 标记的
+					pretabstr=self.getPreTab(pos_x)
+					pat=re.compile(r"\n",re.MULTILINE) #@ ^#开头 
+					templateStr= re.sub(pat,"\n"+pretabstr,templateStr)  
 					self.view.replace(self.currentEditObj,regi,templateStr)
 					ncp=pos_x+len(templateStr)
 					newRegins.append(sublime.Region(ncp,ncp))
