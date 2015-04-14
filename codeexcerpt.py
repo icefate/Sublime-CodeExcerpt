@@ -160,24 +160,36 @@ class CodeExcerptCommand(sublime_plugin.TextCommand):
 					newPointPos=pos_min+tempCursorFlagOffset
 					regionStr=self.view.substr(regi)
 
+					'''
+						分别取两个行前缩进
+						1. pretabstr                 选区起点的那行的全部缩进 
+						2. regionStrPreTab    选区范围内 第一个以tab 或空格开头的那行的 被选中的缩进
+						这两个 可能相等 也可能不相等，取决于选取的情况
+
+						最终仍然是有BUG，影响不大
+					'''
 					pretabstr=self.getPreTab(pos_min) 
 					pat=re.compile(r"\n", re.MULTILINE)
-					finalStr=re.sub(pat,"\n"+pretabstr,templateStr) #@ 除了第一行外,每一行前加缩进
+					finalStr=re.sub(pat,"\n"+pretabstr,templateStr) #@ 除了第一行外,每一行前加 起点行缩进
 
-					#@ 选区的前缀缩进 处理
-					regionStr_noPreTab=re.sub("^(\t|\s)+","",regionStr)
+					regionStr_noPreTab=re.sub("^(\t|\s)+","",regionStr) 
 					regionStrPreTab_len=len(regionStr)-len(regionStr_noPreTab)
-					regionStrPreTab=regionStr[0:regionStrPreTab_len]
- 
-					finalStr=regionStrPreTab+finalStr #@ 最终字符前 加上 选区的前缀缩进
-					finalStr=finalStr.replace("^!",regionStr_noPreTab) #@ 替换掉前缀缩进的选区
+					regionStrPreTab=regionStr[0:regionStrPreTab_len] #@ 得到的是第一个以 tab 或 空格 开头的那行的缩进
+  					# print 'the region first line pre tab is:'+regionStrPreTab
+
+  					# print len(regionStrPreTab)
+  					if len(pretabstr)==0:
+  						finalStr=pretabstr+finalStr.replace("^!",regionStr) #@ 
+  					else:
+ 						finalStr=regionStrPreTab+finalStr.replace("^!",regionStr_noPreTab) #@ 
 
 					self.view.replace(self.currentEditObj, regi, finalStr)
 
 					newPointStart=pos_min
 					newPointEnd=newPointStart+len(finalStr)
 					newRegins.append(sublime.Region(newPointStart,newPointEnd)) 
-
+					
+					
 		#@ 清掉所有选区 并重新设置新的选区
 		
 		self.view.sel().clear()
