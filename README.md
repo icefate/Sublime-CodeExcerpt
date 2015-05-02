@@ -9,7 +9,7 @@ Git链接: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/i
 
 插件官网: [http://ce.buckethead.cn](http://ce.buckethead.cn) 
 
-Email: i@buckethead.cn
+Email：i#buckethead.cn (请将#改为@)
 
 ##  演示 - Gif
 
