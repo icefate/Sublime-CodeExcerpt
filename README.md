@@ -17,10 +17,7 @@ Email：i#buckethead.cn (请将#改为@)
 * <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/2.gif" target="_blank">单选区 / 多选区 - 2.gif</a>
 * <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/3.gif" target="_blank">各种选取情况 - 3.gif</a>
 * <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/4.gif" target="_blank">打开chm文件 - 4.gif</a>
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">一次性装载所有素材 - 5.gif</a>
-
-
-
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">一次性装载所有素材 - 5.gif</a> 预设的快捷键：ctrl + 0 
 
 
 ## 配置 - Config
