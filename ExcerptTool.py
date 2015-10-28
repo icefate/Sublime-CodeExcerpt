@@ -24,7 +24,7 @@ class ExcerptTool:
 	def getPreTab(self,point):
 		regionSelectedFirstLine=self.view.line(point)
 		#print self.view.substr(regionSelectedFirstLine)
- 		m = re.match("^(\t|\s)+", self.view.substr(regionSelectedFirstLine))
+		m = re.match("^(\t|\s)+", self.view.substr(regionSelectedFirstLine))
 		retStr=""
 		if m!=None:
 			retStr=m.group(0)
@@ -95,8 +95,8 @@ class ExcerptTool:
 					self.view.replace(self.currentEditObj,regi,finalStr)
 
 					#@ templateStr 起始 到 ^! 标记中间有换行的，光标位置需要加: 行数*len(pretabstr)
- 					ncount=len(re.split("\n",templateStr[0:tempCursorFlagOffset]))-1;
- 					#print ncount
+					ncount=len(re.split("\n",templateStr[0:tempCursorFlagOffset]))-1;
+					#print ncount
 					newPointPos=newPointPos+ncount*len(pretabstr) #@ 光标位置
 					newRegins.append(sublime.Region(newPointPos,newPointPos))
 			else: #@ 有选区的
@@ -131,13 +131,13 @@ class ExcerptTool:
 					regionStr_noPreTab=re.sub("^(\t|\s)+","",regionStr) 
 					regionStrPreTab_len=len(regionStr)-len(regionStr_noPreTab)
 					regionStrPreTab=regionStr[0:regionStrPreTab_len] #@ 得到的是第一个以 tab 或 空格 开头的那行的缩进
-  					# print 'the region first line pre tab is:'+regionStrPreTab
+					# print 'the region first line pre tab is:'+regionStrPreTab
 
-  					# print len(regionStrPreTab)
-  					if len(pretabstr)==0:
-  						finalStr=pretabstr+finalStr.replace("^!",regionStr) #@ 
-  					else:
- 						finalStr=regionStrPreTab+finalStr.replace("^!",regionStr_noPreTab) #@ 
+					# print len(regionStrPreTab)
+					if len(pretabstr)==0:
+						finalStr=pretabstr+finalStr.replace("^!",regionStr) #@ 
+					else:
+						finalStr=regionStrPreTab+finalStr.replace("^!",regionStr_noPreTab) #@ 
 
 					self.view.replace(self.currentEditObj, regi, finalStr)
 
