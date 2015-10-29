@@ -29,6 +29,7 @@ Email：i#buckethead.cn (请将#改为@)
 
 目前2个版本，分别为 Sublime Tex 2 和 Sublime Tex 3 ， 两者暂不能兼容。
 
-* For_Sublime_Text_2 : Sublime Tex 2
-* For_Sublime_Text_3 : Sublime Text 3  - 在测试，初步实现，待完善。
+* [https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_2](For_Sublime_Text_2)
+* [https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_3](For_Sublime_Text_3)  - 在测试，初步实现，待完善。
+
 

@@ -1,8 +1,8 @@
 ## 关于 - About
 
-CodeExcerpt for Sublime Text 3 Build 3083 - Beta 
+CodeExcerpt for Sublime Text 3 Build 3083 - Beta
 
-大致功能已实现，仍未完善， 暂未放出。
+大致功能已实现，仍未完善， 暂未放出。Coming Soon.....
 
 具体演示效果、配置说明见：CodeExcerpt for Sublime Text 2
 
