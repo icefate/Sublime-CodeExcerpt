@@ -25,7 +25,7 @@ Email：i#buckethead.cn (请将#改为@)
 * <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">一次性装载所有素材 - 5.gif</a>
 
 
-## 版本 - Version
+## 版本和配置 - Version & Config
 
 目前2个版本，分别为 Sublime Tex 2 和 Sublime Tex 3 ， 两者暂不能兼容。
 
