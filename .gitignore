@@ -1,1 +1,2 @@
-for_sublime_text_3/CodeExcerpt/
+/For_Sublime_Text_3/*
+!/For_Sublime_Text_3/*.md
