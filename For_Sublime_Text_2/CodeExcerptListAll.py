@@ -13,7 +13,7 @@ class CodeExcerptListAllCommand(sublime_plugin.TextCommand):
 	excerpt_items = None
 	currentEditObj = None
 
-	config=sublime.load_settings("codeexcerpt.sublime-settings")
+	config=sublime.load_settings("CodeExcerpt.sublime-settings")
 	RES_PATH=config.get("respath")
 	CHM_PATH=config.get("chmpath")
 

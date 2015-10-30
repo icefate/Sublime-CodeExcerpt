@@ -5,10 +5,12 @@
             "ctrl+alt+s"
         ]
     },
+
     {
         "command": "code_excerpt_list_all",
         "keys": [
-            "ctrl+0"
+            "ctrl+alt+d"
         ]
     }
+
 ]
