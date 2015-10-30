@@ -1,0 +1,9 @@
+{
+	// respath 和 chmpath 需设置为绝对路径
+
+	"respath":"D:\\Program Files\\EditPlus 3.51\\STX", // 可以直接用EditPlus安装目录的资源，只读取目录下的 ctl 文件.   PS: 我建立了STX这个文件夹，是在EditPlus的：工具 -> 设置目录 -> 语法目录 里设置的, 我的*.ctl, *.stx等文件全放在这里了。
+ 	
+ 	// chm文件夹路径和chm文件命名都不要有空格，也不要放古怪的字符例如中括号、大括号、中文全角字符等，不过你可以用下划线_
+	"chmpath":"D:\\chm文档"
+
+}
