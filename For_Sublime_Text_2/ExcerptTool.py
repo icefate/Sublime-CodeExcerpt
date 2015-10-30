@@ -9,7 +9,7 @@ import string
 class ExcerptTool:
 
 	excerpt_items = None
-	config=sublime.load_settings("codeexcerpt.sublime-settings")
+	config=sublime.load_settings("CodeExcerpt.sublime-settings")
 	RES_PATH=config.get("respath")
 	CHM_PATH=config.get("chmpath")
 	view=None
