@@ -45,7 +45,7 @@ Email：i#buckethead.cn (请将#改为@)
 以下是经过测试的平台环境
 
 * 操作系统：Windows XP & Windows 7
-* Sublime版本： Sublime Text 2
+* Sublime版本： Sublime Text Version 2.0.2, Build 2221
 * Editplus版本： EditPlus 3.51
 
 非Windows系统 和 Sublime Text 3 没有经过测试, 未知是否可用

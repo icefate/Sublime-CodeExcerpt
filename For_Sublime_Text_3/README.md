@@ -9,7 +9,7 @@ CodeExcerpt for Sublime Text 3 Build 3083
 以下是经过测试的平台环境
 
 * 操作系统：Windows 7
-* Sublime版本： `Sublime Text 3 Build 3083`
+* Sublime版本： Sublime Text 3 Build 3083
 * Editplus版本： EditPlus 3.51
 
 ## 配置 - Config
