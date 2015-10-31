@@ -1,7 +1,7 @@
 ## 关于 - About
 CodeExcerpt-实现Editplus素材功能的 Sublime Text  插件。可读取Editplus里的素材片断（ctl文件），并插入到选区（支持多选区插入）。不需要修改ctl文件的内容格式. 
 
-插件适用对象：从Editplus转向Sublime，但并不打算放弃Editplus的人 ( 当然凡事无绝对，参见本页最下端的备注所述)
+插件适用对象：从Editplus转向Sublime，但并不打算放弃Editplus的人
 
 Git链接: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/icefate/Sublime-CodeExcerpt)
 
