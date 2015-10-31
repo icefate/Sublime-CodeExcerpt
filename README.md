@@ -33,3 +33,8 @@ Email：i#buckethead.cn (请将#改为@)
 * [For_Sublime_Text_3](https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_3)  - 在测试，初步实现，待完善。
 
 
+写完 For_Sublime_Text_3 后，我发现 For_Sublime_Text_2 的代码极其丑陋，但是我暂时不想改它了，目前能用就好，某天心情好再改。
+
+For_Sublime_Text_3 代码没有For_Sublime_Text_2那么多的条件判断，且效果上有点点不同，体现在最终的选区定位。
+
+
