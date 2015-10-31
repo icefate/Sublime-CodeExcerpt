@@ -37,10 +37,10 @@ class ETool:
 					clearfilename=sf[0:(len(sf)-len(sfp[1]))]
 					if ext==".chm":
 						clearfilename="[ CHM ] - "+clearfilename
-						type="doc"
+						ftype="doc"
 					else:
-						type="template"
-					fitem={"name":clearfilename,"type":type, "filename":sf,"fullfilename":sf_fullname}
+						ftype="template"
+					fitem={"name":clearfilename,"type":ftype, "filename":sf,"fullfilename":sf_fullname}
 					self.files.append(fitem)
 					self.file_items.append(clearfilename)
 					self.loadExcerptByFile(fitem)
