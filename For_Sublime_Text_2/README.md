@@ -48,7 +48,9 @@ Email：i#buckethead.cn (请将#改为@)
 * Sublime版本： Sublime Text Version 2.0.2, Build 2221
 * Editplus版本： EditPlus 3.51
 
-非Windows系统 和 Sublime Text 3 没有经过测试, 未知是否可用
+非Windows系统  没有经过测试, 未知是否可用
+
+Sublime Text 3 版本请用：[For_Sublime_Text_3](https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_3)
 
 ## 备注  -  Remarks
 
