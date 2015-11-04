@@ -15,7 +15,3 @@ CodeExcerpt for Sublime Text 3 Build 3083
 ## 配置 - Config
 
 具体演示效果、配置说明见：[For_Sublime_Text_2](https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_2)
-
-
-
-

@@ -104,7 +104,7 @@ class ETool:
 		if self.listType=="all": #@ 全部装载
 			item = self.excerpt_items_all[picked]
 			if item.find("[ CHM ] - ")==0: #@ CHM
-				self.openCHM(self.CHM_PATH+"\\"+re.sub(".*__","",item.replace("[ CHM ] - ",""))+".chm")
+				self.openCHM(self.CHM_PATH+"\\"+re.sub("^\[\sCHM\s]\s-\s","",item)+".chm")
 			else:
 				self.doInsertExcerpt(item)
 		else:#@ 分部装载 - 默认

@@ -22,7 +22,7 @@ Email：i#buckethead.cn (请将#改为@)
 
 
 使用快捷键：`ctrl + alt + d`  可以一次性装载所有素材：
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">一次性装载所有素材 - 5.gif</a>    一次性装载所有素材仍有BUG：是当选择chm的时候，无法打开chm文件，待改
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">一次性装载所有素材 - 5.gif</a>
 
 
 
