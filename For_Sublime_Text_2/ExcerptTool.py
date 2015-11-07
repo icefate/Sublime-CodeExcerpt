@@ -39,7 +39,7 @@ class ExcerptTool:
 		if item.find("[ CHM ]") ==0:
 			#@ 如果是chm文件 调用命令行打开
 			import subprocess
-			chmfile=self.CHM_PATH+"\\"+re.sub("^\[\sCHM\s]\s-\s","",item)+".chm"
+			chmfile=self.CHM_PATH+"\\"+re.sub("^\[\sCHM\s\]\s-\s","",item)+".chm"
 			print(chmfile)
 			subprocess.Popen(["start /max ",chmfile.encode(sys.getfilesystemencoding())],shell=True) #@ 用命令行的命令打开需设置shell=True
 			return 
