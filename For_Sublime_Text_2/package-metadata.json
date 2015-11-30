@@ -1,0 +1,1 @@
+{"description": "Load Editplus code excerpt (*.ctl files) . For ST 2.0.2, Build 2221 ", "url": "https://github.com/icefate/Sublime-CodeExcerpt", "platforms": ["*"], "version": "2015.11.30", "sublime_text": "*", "dependencies": []}
