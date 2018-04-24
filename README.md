@@ -1,40 +1,40 @@
-## å…³äº - About
-CodeExcerpt-å®ç°Editplusç´ æåŠŸèƒ½çš„ Sublime Text  æ’ä»¶ã€‚å¯è¯»å–Editplusé‡Œçš„ç´ æç‰‡æ–­ï¼ˆctlæ–‡ä»¶ï¼‰ï¼Œå¹¶æ’å…¥åˆ°é€‰åŒºï¼ˆæ”¯æŒå¤šé€‰åŒºæ’å…¥ï¼‰ã€‚ä¸éœ€è¦ä¿®æ”¹ctlæ–‡ä»¶çš„å†…å®¹æ ¼å¼. 
+## ¹ØÓÚ - About
+CodeExcerpt-ÊµÏÖEditplusËØ²Ä¹¦ÄÜµÄ Sublime Text  ²å¼ş¡£¿É¶ÁÈ¡EditplusÀïµÄËØ²ÄÆ¬¶Ï£¨ctlÎÄ¼ş£©£¬²¢²åÈëµ½Ñ¡Çø£¨Ö§³Ö¶àÑ¡Çø²åÈë£©¡£²»ĞèÒªĞŞ¸ÄctlÎÄ¼şµÄÄÚÈİ¸ñÊ½. 
 
-æ’ä»¶é€‚ç”¨å¯¹è±¡ï¼šä»Editplusè½¬å‘Sublimeï¼Œä½†å¹¶ä¸æ‰“ç®—æ”¾å¼ƒEditplusçš„äºº
+²å¼şÊÊÓÃ¶ÔÏó£º´ÓEditplus×ªÏòSublime£¬µ«²¢²»´òËã·ÅÆúEditplusµÄÈË
 
-Gité“¾æ¥: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/icefate/Sublime-CodeExcerpt)
+GitÁ´½Ó: [https://github.com/icefate/Sublime-CodeExcerpt](https://github.com/icefate/Sublime-CodeExcerpt)
 
-æ’ä»¶å®˜ç½‘: [http://ce.buckethead.cn](http://ce.buckethead.cn) 
+²å¼ş¹ÙÍø: [http://ce.buckethead.cn](http://ce.buckethead.cn) 
 
-Emailï¼ši#buckethead.cn (è¯·å°†#æ”¹ä¸º@)
+Email£ºi#buckethead.cn (Çë½«#¸ÄÎª@)
 
-##  æ¼”ç¤º - Gif
+##  ÑİÊ¾ - Gif
 
-å½•åˆ¶çš„æ–‡ä»¶è¾ƒå¤§ï¼Œå»ºè®®èŠ±å‡ åˆ†é’Ÿï¼Œè€å¿ƒçœ‹å®Œï¼š
+Â¼ÖÆµÄÎÄ¼ş½Ï´ó£¬½¨Òé»¨¼¸·ÖÖÓ£¬ÄÍĞÄ¿´Íê£º
 
-ä½¿ç”¨å¿«æ·é”®ï¼š`ctrl + alt + s`
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/0.gif" target="_blank">å®‰è£… - 0.gif</a>
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/1.gif" target="_blank">å¸¸è§æƒ…å½¢ - 1.gif</a>
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/2.gif" target="_blank">å•é€‰åŒº / å¤šé€‰åŒº - 2.gif</a> 
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/3.gif" target="_blank">å„ç§é€‰å–æƒ…å†µ - 3.gif</a> 
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/4.gif" target="_blank">æ‰“å¼€chmæ–‡ä»¶ - 4.gif</a> 
-
-
-ä½¿ç”¨å¿«æ·é”®ï¼š`ctrl + alt + d`  å¯ä»¥ä¸€æ¬¡æ€§è£…è½½æ‰€æœ‰ç´ æï¼š
-* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">ä¸€æ¬¡æ€§è£…è½½æ‰€æœ‰ç´ æ - 5.gif</a>
+Ê¹ÓÃ¿ì½İ¼ü£º`ctrl + alt + s`
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/0.gif" target="_blank">°²×° - 0.gif</a>
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/1.gif" target="_blank">³£¼ûÇéĞÎ - 1.gif</a>
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/2.gif" target="_blank">µ¥Ñ¡Çø / ¶àÑ¡Çø - 2.gif</a> 
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/3.gif" target="_blank">¸÷ÖÖÑ¡È¡Çé¿ö - 3.gif</a> 
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/4.gif" target="_blank">´ò¿ªchmÎÄ¼ş - 4.gif</a> 
 
 
-## ç‰ˆæœ¬å’Œé…ç½® - Version & Config
+Ê¹ÓÃ¿ì½İ¼ü£º`ctrl + alt + d`  ¿ÉÒÔÒ»´ÎĞÔ×°ÔØËùÓĞËØ²Ä£º
+* <a href="https://raw.githubusercontent.com/icefate/Sublime-CodeExcerpt/master/gif/5.gif" target="_blank">Ò»´ÎĞÔ×°ÔØËùÓĞËØ²Ä - 5.gif</a>
 
-ç›®å‰2ä¸ªç‰ˆæœ¬ï¼Œåˆ†åˆ«ä¸º Sublime Tex 2 å’Œ Sublime Tex 3 ï¼Œ ä¸¤è€…æš‚ä¸èƒ½å…¼å®¹ã€‚
+
+## °æ±¾ºÍÅäÖÃ - Version & Config
+
+Ä¿Ç°2¸ö°æ±¾£¬·Ö±ğÎª Sublime Tex 2 ºÍ Sublime Tex 3 £¬ Á½ÕßÔİ²»ÄÜ¼æÈİ¡£
 
 * [For_Sublime_Text_2](https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_2)
-* [For_Sublime_Text_3](https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_3)  - åœ¨æµ‹è¯•ï¼Œåˆæ­¥å®ç°ï¼Œå¾…å®Œå–„ã€‚
+* [For_Sublime_Text_3](https://github.com/icefate/Sublime-CodeExcerpt/tree/master/For_Sublime_Text_3)  - ÔÚ²âÊÔ£¬³õ²½ÊµÏÖ£¬´ıÍêÉÆ¡£
 
 
-å†™å®Œ For_Sublime_Text_3 åï¼Œæˆ‘å‘ç° For_Sublime_Text_2 çš„ä»£ç æå…¶ä¸‘é™‹ï¼Œä½†æ˜¯æˆ‘æš‚æ—¶ä¸æƒ³æ”¹å®ƒäº†ï¼Œç›®å‰èƒ½ç”¨å°±å¥½ï¼ŒæŸå¤©å¿ƒæƒ…å¥½å†æ”¹ã€‚
+Ğ´Íê For_Sublime_Text_3 ºó£¬ÎÒ·¢ÏÖ For_Sublime_Text_2 µÄ´úÂë¼«Æä³óÂª£¬µ«ÊÇÎÒÔİÊ±²»Ïë¸ÄËüÁË£¬Ä¿Ç°ÄÜÓÃ¾ÍºÃ£¬Ä³ÌìĞÄÇéºÃÔÙ¸Ä¡£
 
-For_Sublime_Text_3 ä»£ç æ²¡æœ‰For_Sublime_Text_2é‚£ä¹ˆå¤šçš„æ¡ä»¶åˆ¤æ–­ï¼Œä¸”æ•ˆæœä¸Šæœ‰ç‚¹ç‚¹ä¸åŒï¼Œä½“ç°åœ¨æœ€ç»ˆçš„é€‰åŒºå®šä½ã€‚
+For_Sublime_Text_3 ´úÂëÃ»ÓĞFor_Sublime_Text_2ÄÇÃ´¶àµÄÌõ¼şÅĞ¶Ï£¬ÇÒĞ§¹ûÉÏÓĞµãµã²»Í¬£¬ÌåÏÖÔÚ×îÖÕµÄÑ¡Çø¶¨Î»¡£
 
 
